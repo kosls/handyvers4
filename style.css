@@ -1,0 +1,121 @@
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.calculator{
+    width: 20px;
+    margin: 0 auto;
+    border: 4px solid #6d6d6d;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.2);
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+button{
+padding: 20px;
+font-size: 30px;
+background-color: #e19292;
+border: 2px solid #000000;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover{
+    background: #6de393;
+}
+#display{
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 50px;
+    width: 95%;
+}
+.clear-btn{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px solid black; 
+}
+.clear-btn:hover{
+    background: lightseagreen;
+}
+.divi-btn{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px solid black;
+}
+.divi-btn:hover{
+    background: lightseagreen;
+}
+.multi-btn{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px soild black;
+}
+.multi-btn:hover{
+    background: lightseagreen;
+}
+.sub-btn{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px solid black;
+}
+.sub-btn:hover{
+    background: lightseagreen;
+}
+.add-btn{
+    background-color: lightsalmon;
+    color:black;
+    border: 2px solid black;
+}
+.add-btn:hover{
+    background: lightseagreen;
+}
+.end-btn{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px solid black;
+}
+.end-btn:hover{
+    background: lightseagreen;
+}
+.dot-btn{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px solid black;
+}
+.dot-btn:hover{
+    background: lightseagreen;
+}
+.one-btn:hover{
+    background: lightskyblue;
+}
+.two-btn:hover{
+    background: lightgreen;
+}
+.thre-btn:hover{
+    background: rgb(22, 228, 228);
+}
+.four-btn:hover{
+    background: lightskyblue;
+}
+.five-btn:hover{
+    background: lightgreen;
+}
+.six-btn:hover{
+    background: rgb(22, 228, 228);
+}
+.seven-btn:hover{
+    background: lightskyblue;
+}
+.eight-btn:hover{
+    background: lightgreen;
+}
+.nine-btn:hover{
+ background: rgb(22, 228, 228);
+}
+.zero-btn:hover{
+    background: lightgrey;
+}
